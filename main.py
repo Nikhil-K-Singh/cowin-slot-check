@@ -24,10 +24,8 @@ baseurl="https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarBy
 def my_function(name, capacity):
     """
 
-    Alert my number,
-    goto the cowin site and book the slot if possible,
-
-    inputs -> site address, phone number , otp, pincode, name , address
+    Alert my number
+    inputs -> name: str; capacity: str
 
     """
     from twilio.rest import Client
